@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">citasMedicas</string>
+    <string name="title_activity_principal_pacientes">PrincipalPacientes</string>
+    <string name="title_activity_principal_medicos">PrincipalMedicos</string>
+    <string name="title_activity_principal_administradores">PrincipalAdministradores</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sp_titulo_estados">Seleccionar Estado</string>
+    <string name="sp_titulo_especialidad">Seleccionar Especialidad</string>
+    <string name="sp_titulo_rol">Seleccionar Rol</string>
+    <string name="sp_titulo_medico">Seleccionar Médico</string>
+    <string name="sp_titulo_filtros">Filtrar por:</string>
+</resources>

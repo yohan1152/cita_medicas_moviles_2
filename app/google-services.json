@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819855313073",
+    "firebase_url": "https://citasmedicas-b2128.firebaseio.com",
+    "project_id": "citasmedicas-b2128",
+    "storage_bucket": "citasmedicas-b2128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819855313073:android:aa88f8edc91ae323a77a90",
+        "android_client_info": {
+          "package_name": "com.example.citasmedicas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819855313073-5tumdedbs23gj5oe8t4vi4f6onojissv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.citasmedicas",
+            "certificate_hash": "7197eefab79a5708d16bb2a627e60fb651e6ac5d"
+          }
+        },
+        {
+          "client_id": "819855313073-hk44t8lgif3oaaqkeg6gf829lp9pfvb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0POxED4rhiFVyFjxenctxtu53VkZknY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819855313073-hk44t8lgif3oaaqkeg6gf829lp9pfvb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

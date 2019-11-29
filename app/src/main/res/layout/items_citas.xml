@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <View
+        android:id="@+id/div_vertical_largo"
+        android:layout_width="8dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#DBDCDC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="33dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/div_vertical_largo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/div_vertical_largo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_fecha" />
+
+    <View
+        android:id="@+id/div_vertical_peq"
+        android:layout_width="1dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:background="#DBDCDC"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_fecha"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_especialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/div_vertical_peq"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_medico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:textAlignment="textStart"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/div_vertical_peq"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_especialidad" />
+
+    <TextView
+        android:id="@+id/tv_item_asignar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:text="Asignar"
+        android:textColor="#068215"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/div_vertical_peq"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_medico" />
+
+    <TextView
+        android:id="@+id/tv_item_estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="textEnd"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:text="Cancelar"
+        android:textColor="#B7190C"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/div_vertical_peq"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_medico" />
+
+    <TextView
+        android:id="@+id/tv_item_finalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:text="Finalizar"
+        android:textColor="#0874A1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_cancelar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_medico" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
